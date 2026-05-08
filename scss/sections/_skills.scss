@@ -173,7 +173,8 @@
     height: 40px;
 
     &:hover {
-        transform: rotate(45deg);
+        transform: rotate(120deg);
+        cursor: pointer;
     }
 }
 

@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .from("#discriptionTitle", {duration: 1, x: -800})
     gsap.registerPlugin(ScrollTrigger)
 
-    gsap.from('[data-skill-card]', {
+    gsap.from('#skiilSection article', {
         scrollTrigger: {
             trigger: "#titleSkill",
             start: "top 90%",
             end: "bottom 40%",
             scrub: 2,
-            markers: true
+            // markers: true
         },
             y: '100%',
             opacity: 0,
